@@ -1,0 +1,14 @@
+# mkdocs build output — `mkdocs build` writes here; only the source in docs/ is tracked.
+/site/
+
+# Original Word drafts the site was built from. Superseded by docs/ — kept locally
+# as an archive, not published. Delete them once you're sure you don't want them.
+*.docx
+
+# macOS
+.DS_Store
+
+# Python, if you run mkdocs locally in a virtualenv
+.venv/
+venv/
+__pycache__/

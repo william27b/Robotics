@@ -1,0 +1,17 @@
+{
+  // MkDocs uses PyYAML's Python-specific tags. The YAML extension flags them as
+  // "unresolved tag" unless they're declared here. They are valid — mkdocs build --strict
+  // resolves them fine. Both spellings are listed: the short form as written in
+  // mkdocs.yml, and the fully-resolved form the extension reports in its error.
+  "yaml.customTags": [
+    "!ENV scalar",
+    "!ENV sequence",
+    "!relative scalar",
+    "!!python/name:material.extensions.emoji.to_svg",
+    "!!python/name:material.extensions.emoji.twemoji",
+    "!!python/name:pymdownx.superfences.fence_code_format",
+    "tag:yaml.org,2002:python/name:material.extensions.emoji.to_svg",
+    "tag:yaml.org,2002:python/name:material.extensions.emoji.twemoji",
+    "tag:yaml.org,2002:python/name:pymdownx.superfences.fence_code_format"
+  ]
+}
