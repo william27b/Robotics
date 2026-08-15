@@ -1,5 +1,7 @@
 # Team docs site
 
+*This is a test website; its design was aided by Claude Code.*
+
 Crash courses and team knowledge, built with [MkDocs Material](https://squidfunk.github.io/mkdocs-material/). Content is plain Markdown in `docs/` — anyone on the team can edit it from the GitHub web editor.
 
 ## Preview locally
